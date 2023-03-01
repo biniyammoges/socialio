@@ -30,7 +30,7 @@
 
     <div class="flex-1">
       <PageWidget />
-      <!-- <PageWidget class="mt-4" /> -->
+      <ContactWidget class="mt-4" />
     </div>
   </div>
 </template>
@@ -39,5 +39,6 @@
 import StoryWidget from "../components/main/story/StoryWidget.vue";
 import PostWidget from "../components/main/post/PostWidget.vue";
 import PageWidget from "../components/main/pages/PageWidget.vue";
+import ContactWidget from "../components/main/contact/ContactWidget.vue";
 import SiButton from "../components/shared/SiButton.vue";
 </script>
